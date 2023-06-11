@@ -1,0 +1,32 @@
+-Create Spring Boot Project with Spring Initialize (start.spring.io)
+-Creating RestAPIs
+-Getting value from URL
+	@PathVariable
+-Getting Object sent in RequestBody
+	@RequestBody
+-Returning HTTP Status Code and location via ResponseEntity 
+-Implementing Custom Error and HttpStatus Code for same.
+-Implementing Custom ErrorHandler and ErrorResponse by Extending ResponseEntityErrorHandeler 
+-Implementing Validations of bean.
+-RestAPI documentations with Swagger and OpenAPI
+-Content Negotiation (Representing Data in different formats json/xml)
+-Internationalization i18n using MessageSource and messages.properties file
+-Versioning of API
+    -URI Versioning
+    -Request Parameter Versioning
+    -Custom Header Versioning
+    -Media Type Versioning
+-HATEOAS (Hypermedia As The Engine Of Application State)
+    -Allow to pass Links along with the Data in a RestAPI
+    -Implementation
+        -Custom Format by building it from scratch(Difficult to maintian)
+        -Standard Format 
+            -HAL (JSON Hypertext Application Language) Format that enables to link API together.
+-Static and Dynamic Filtering 
+    Static - using @JsonIgnore and @JsonIgnoreProperties
+    Dynamic - using @JsonFilter with FilterProvider.
+-Adding HAL explorer.
+-Convertion of H2 to MySQL database
+-Spring Security
+    -Configuring user defined FilterChains
+    
